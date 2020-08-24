@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - App", "01 - App", "{511A2330-62DD-46A7-9B3D-33D37F36BE5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paschoalotto.ProvadorDados.API", "Paschoalotto.ProvadorDados.API\Paschoalotto.ProvadorDados.API.csproj", "{FF0F704C-DF3A-4843-8B91-DB19A268272F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Dominio", "02 - Dominio", "{587E8A4E-A152-4527-BC62-FEF770700E1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{DC21E75D-B327-42D6-B800-F7945CBDD30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paschoalotto.Dominio", "Paschoalotto.Dominio\Paschoalotto.Dominio.csproj", "{89BEE562-6E21-45F0-8C05-91DBA2883749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paschoalotto.Repositorio.Database", "Paschoalotto.Repositorio.Database\Paschoalotto.Repositorio.Database.csproj", "{2F5EF2F9-AEF0-4D71-BB17-3A33E8A95407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF0F704C-DF3A-4843-8B91-DB19A268272F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0F704C-DF3A-4843-8B91-DB19A268272F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0F704C-DF3A-4843-8B91-DB19A268272F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0F704C-DF3A-4843-8B91-DB19A268272F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BEE562-6E21-45F0-8C05-91DBA2883749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BEE562-6E21-45F0-8C05-91DBA2883749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BEE562-6E21-45F0-8C05-91DBA2883749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BEE562-6E21-45F0-8C05-91DBA2883749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5EF2F9-AEF0-4D71-BB17-3A33E8A95407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5EF2F9-AEF0-4D71-BB17-3A33E8A95407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5EF2F9-AEF0-4D71-BB17-3A33E8A95407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5EF2F9-AEF0-4D71-BB17-3A33E8A95407}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF0F704C-DF3A-4843-8B91-DB19A268272F} = {511A2330-62DD-46A7-9B3D-33D37F36BE5F}
+		{89BEE562-6E21-45F0-8C05-91DBA2883749} = {587E8A4E-A152-4527-BC62-FEF770700E1E}
+		{2F5EF2F9-AEF0-4D71-BB17-3A33E8A95407} = {DC21E75D-B327-42D6-B800-F7945CBDD30B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39445EC3-1D4E-48F5-888D-990588951573}
+	EndGlobalSection
+EndGlobal
